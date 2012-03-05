@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/repos/wec_journal/!svn/ver/2/trunk/res
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/wec_journal/!svn/ver/2/trunk/res/.DS_Store
+END
+journal.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/wec_journal/!svn/ver/4/trunk/res/journal.css
+END
+journal.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/wec_journal/!svn/ver/4/trunk/res/journal.js
+END
+resizable.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/wec_journal/!svn/ver/2/trunk/res/resizable.js
+END

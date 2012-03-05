@@ -1,0 +1,10 @@
+plugin.tx_wecjournal_pi1 = USER_INT
+
+plugin.tx_wecjournal_pi1 {
+	templateFile 		= {$plugin.tx_wecjournal_pi1.templateFile}
+	cssFile 			= {$plugin.tx_wecjournal_pi1.cssFile}
+	journalBtnImage 	= {$plugin.tx_wecjournal_pi1.journalBtnImage}
+	RTEenabled 			= {$plugin.tx_wecjournal_pi1.RTEenabled}
+	
+	isLoaded		    = yes
+}

@@ -1,0 +1,49 @@
+<!-- Templates For Admin of the WEC Lesson & Class Extension:
+
+	TEMPLATE_JOURNAL
+
+-->
+
+<!--
+=====================================================================================================
+###TEMPLATE_JOURNAL### begin
+=====================================================================================================
+-->
+<!-- ###SHOW_JOURNAL_BUTTON### begin -->
+<div id="journalButton" class="journalButton">
+	<a href="#" title="Show your journal" onclick="doShowJournal();return false;"><img src="###JOURNAL_BUTTON_IMAGE###" /></a>
+</div>
+<!-- ###SHOW_JOURNAL_BUTTON### end -->
+
+<!-- ###SHOW_JOURNAL_WINDOW### begin -->
+<div id="journalWindow" class="journalWindow" style="###JOURNAL_WINDOW_STYLE###">
+	###RTE_PRE_FORM###
+	<div class="journalName">###JOURNAL_NAME###</div>
+	<div class="journalCurrentTopic" id="currentTopic"><span>###CURRENT_TOPIC_LABEL###</span><span>###ADD_ENTRY_FORM###</span></div>
+	<div class="journalChooseTopic" ###CHOOSE_TOPIC_CLASS###><span>###CHOOSE_TOPIC_LABEL###</span><span>###TOPIC_SELECT_DROPDOWN###</span></div>
+	<div class="journalContent" id="journalContent">
+	    <form name="journalForm" id="journalForm" class="journalForm" method="post" action="###ACTION_URL###" onsubmit="###RTE_SUBMIT###" enctype="multipart/form-data">
+			<!-- ###SHOW_MESSAGE_RTE### begin -->
+       	    	###RTE_FORM_VARS###
+          	    ###RTE_FORM_ENTRY###
+   	      	    ###RTE_FORM_BUTTONS###
+			<!-- ###SHOW_MESSAGE_RTE### end-->
+			<!-- ###SHOW_MESSAGE_TEXTAREA### begin-->
+				<textarea name="tx_wecjournal[message]" cols="40" rows="25" wrap="virtual" ###MESSAGE_STYLE### style="height:365px;width:325px">###VALUE_MESSAGE###</textarea>
+			<!-- ###SHOW_MESSAGE_TEXTAREA### end-->
+			###JOURNAL_HIDDEN_FIELDS###
+	    </form>
+	</div>
+	<div class="journalButtonRow">
+		<a href="#" class="editBtn saveAction" onclick="return false;"><span>Save</span></a>
+		<a href="#" class="editBtn closeAction" onclick="return false;"><span>Close</span></a>
+		<!-- ###SHOW_PRINT_BUTTON### begin -->
+		<a href="#" class="editBtn" onclick="javascript:printJournal();return false;"><span>Print</span></a>
+		<!-- ###SHOW_PRINT_BUTTON### end -->
+	</div>
+	###RTE_POST_FORM###
+</div>
+###POST_JOURNAL###
+<!-- ###SHOW_JOURNAL_WINDOW### end -->
+	
+<!-- ###TEMPLATE_JOURNAL### end -->

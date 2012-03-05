@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_wecjournal_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+            <label index="errorIncludeStatic">You must include static &quot;WEC Journal template&quot; for any output</label>
+			<label index="no_user">You need to login to see your journal.</label>
+			<label index="topic_label">Topic: </label>
+			<label index="subtopic_label">Subtopic: </label>
+			<label index="topic_none">None</label>
+			<label index="choose_topic_label">Choose Entry:</label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+			<label index=""></label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,14 @@
+plugin.tx_wecjournal_pi1 {
+# cat=plugin.tx_wecjournal_pi1/file/1; type=file[html,htm,tmpl,txt]; label= Template File: HTML template file for display of the journal
+  templateFile 		= EXT:wec_journal/tmpl/wecjournal.tmpl
+
+# cat=plugin.tx_wecjournal_pi1/file/1; type=file[html,htm,tmpl,txt]; label= CSS override file for display of journal
+  cssFile 		= 
+
+# cat=plugin.tx_wecjournal_pi1/file/1; type=file[jpg,png,gif]; label= Journal button image
+  journalBtnImage	=
+
+# cat=plugin.tx_wecjournal_pi1/options/9; type=boolean; label= RTE is enabled for journal
+  RTEenabled		= 1
+
+}

@@ -1,0 +1,179 @@
+#journalWindow img { border: 0;}
+
+#journalButton {
+	position:relative;
+	height: 1px;
+	width: 1px;
+}
+
+.journalWindow {
+	width:300px;
+	border:4px solid #605030;
+	position:fixed;
+	right: 0px;
+	top:10%;
+	padding:2px;
+	background-color:#908050;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+}
+
+.journalName {
+	float: left;
+	background-color:#908050;
+	padding:2px 0px 4px 0px;
+	font-size:14px;
+	font-weight:bold;
+	width:100%;
+}
+
+.journalCurrentTopic {
+	width:100%;
+	background-color:#908050;
+	padding:2px 0px 4px 0px;
+	font-size:12px;
+	float: left;
+}
+.journalChooseTopic {
+	width:100%;
+	background-color:#908050;
+	padding:2px 0px 4px 0px;
+	font-size:12px;
+	float: left;
+}
+#input.journalTopicField {
+	width: 240px;
+}
+.journalContent {
+	width: 100%;
+	height: 336px;
+	margin: 0px;
+	float: left;
+	clear: both;
+}
+.journalForm {
+}
+.journalButtonRow {
+	width:100%;
+	background-color:#908050;
+	padding:0px;
+	float: left;
+	clear: both;
+}
+
+a.editBtn {
+    background: transparent url(img/bg_button_a.gif) no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 11px arial, sans-serif;
+	margin:8px 6px 6px 6px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none !important;
+}
+
+a.editBtn span {
+    background: transparent url(img/bg_button_span.gif) no-repeat;
+    display: block;
+    line-height: 12px;
+    padding: 3px 0 3px 12px;
+}
+a.editBtn:hover {
+	color: #DF2929 !important;
+}
+
+a.editBtn:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.editBtn:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+#journalWindow #closeButton {
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	overflow: visible;
+	height: 16px !important;
+	width: 16px !important;
+	background: url(img/close_btn.png) no-repeat;
+	display: block;
+	xposition: absolute;
+	xtop: 5px;
+	xright: 0px;
+	float: right;
+}
+#journalWindow #closeButton:hover {
+	background: url(img/close_btn_hover.png) no-repeat;
+}
+
+#journalWindow #plusButton {
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	overflow: visible;
+	height: 16px !important;
+	width: 16px !important;
+	background: url(img/plus_btn.png) no-repeat;
+	xposition: absolute;
+	xtop: 5px;
+	xright: 40px;
+	float: right;
+}
+#journalWindow #plusButton:hover {
+	background: url(img/plus_btn_hover.png) no-repeat;
+}
+#journalWindow #minusButton {
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	width: auto;
+	overflow: visible;
+	height: 16px !important;
+	width: 16px !important;
+	background: url(img/minus_btn.png) no-repeat;
+	xposition: absolute;
+	xtop: 5px;
+	xright: 20px;
+	border: 0;	
+	float: right;
+}
+#journalWindow #minusButton:hover {
+	background: url(img/minus_btn_hover.png) no-repeat;
+}
+
+#journalWindow #newButton {
+	border: 1px solid #aaa;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	overflow: visible;
+	height: 16px !important;
+	margin-left: 10px;
+	color: #664;
+	background-color:#eee;
+}
+#journalWindow #newButton:hover {
+	color: #c00;
+}
+
+.notificationMsg {
+	position: fixed;
+	top: 5px;
+	left: 75%;
+	padding: 5px;
+	background: #aaa;
+	color: #222;
+	border: 1px solid #666;
+	z-index: 99999;
+}
